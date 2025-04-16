@@ -1,0 +1,13 @@
+{
+  "name": "claim-reward-script",
+  "version": "1.0.0",
+  "description": "签到脚本，调用智能合约的claimReward函数",
+  "main": "claim_reward.js",
+  "scripts": {
+    "start": "node claim_reward.js"
+  },
+  "dependencies": {
+    "ethers": "^6.7.1",
+    "fs": "^0.0.1-security"
+  }
+} 
